@@ -22,7 +22,7 @@
 ![Aaron Swartz](/pic/admin.png)
 
 主页面：
-![Aaron Swartz](/pic/basic.png)
+![Aaron Swartz](/pic/base.png)
 
 详细页面：
 ![Aaron Swartz](/pic/detail.png)
