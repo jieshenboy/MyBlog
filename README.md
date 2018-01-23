@@ -17,3 +17,12 @@
 8、RSS订阅功能
 
 9、分页功能
+
+后台管理界面：
+![Aaron Swartz](/pic/admin.png)
+
+主页面：
+![Aaron Swartz](/pic/basic.png)
+
+详细页面：
+![Aaron Swartz](/pic/detail.png)
