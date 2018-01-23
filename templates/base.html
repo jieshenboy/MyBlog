@@ -32,7 +32,15 @@
                     <li class="nav-item">
                         <a class="pure-button" href="https://github.com/jieshenboy">Github</a>
                     </li>
+                    <li>
+                        <form class="pure-form" action="/search/" method="get">
+                        <input class="pure-input-3-3"  style="color:#ff0000" type="text" name="s" placeholder="search">
 
+                        </form>
+                    </li>
+                    <li>
+                        <a class="button-success pure-button" href="{% url "RSS" %}">RSS</a>
+                    </li>
 
                 </ul>
             </nav>
