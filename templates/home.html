@@ -1,7 +1,9 @@
 <!--home.html-->
 {% extends "base.html" %}
+{% load custom_markdown %} #添加Markdown
 
 {% block content %}
+
 <div class="posts">
     {% for post in post_list %}
         <section class="post">
@@ -15,7 +17,7 @@
 
                 <div class="post-description">
                     <p>
-                        {{ post.content }}
+                        {{ post.content|custom_markdown }} #添加Markdown
                     </p>
                 </div>
                 <a class="pure-button" href="{% url "detail" id=post.id %}">Read More >>> </a>
